@@ -44,3 +44,8 @@ async def show_headers(request: Request):
     # Return them as JSON response
     return {"headers": headers_dict}
 ```
+# Synchronous Vs Asynchronous (programming execution styles):
+- Synchronous means tasks run one after another - each must finish before the next starts.
+- Asynchronous means tasks run together/concurrently - while one waits, others keep working.
+- In short: Sync = blocking, Async = non-blocking.
+- Sync and async: these tell how the server runs your code.

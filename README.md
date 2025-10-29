@@ -24,6 +24,9 @@ An HTTP header is a part of an HTTP request or response that carries additional 
 }
 
 ```
+Authorization: tells who is sending (authentication info)
+Content-Type: tells the format of data (json)
+
 - Show All HTTP Headers
 ```
 from fastapi import FastAPI, Request

@@ -19,6 +19,7 @@ An HTTP header is a part of an HTTP request or response that carries additional 
   "content-type": "application/json",
   "origin": "https://myapp.com",
   "referer": "https://google.com",
+  "X-User-Email": abc@gmail.com,
   "cookie": "sessionid=xyz",
   "accept-language": "en-US,en;q=0.9"
 }
